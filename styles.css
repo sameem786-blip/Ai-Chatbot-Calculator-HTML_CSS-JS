@@ -1,0 +1,82 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-color: green;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cal-box{
+    padding-top: 30px;
+    align-items: center;
+}
+
+.input-div{
+    margin: 20px;
+
+}
+
+.btn-div{
+display: flex;
+}
+.btn{
+    margin-left: 10px;
+    display: inline;
+}
+
+.input{
+    outline: none;
+    border: none;
+    background-color: white;
+    height: 20px;
+    border-radius: 4px;
+    padding: 2px;
+
+}
+
+.btn-sum{
+    height: 40px;
+    width: 70px;
+    border-radius: 4px;
+    border: 2px solid darkgreen;
+}
+.btn-sum:hover{
+    cursor: pointer;
+    
+    box-shadow: 2px 2px 5px white;
+}
+.btn-diff{
+    height: 40px;
+    width: 80px;
+    border-radius: 4px;
+    border: 2px solid darkgreen;
+    
+}
+.btn-diff:hover{
+    cursor: pointer;
+    
+    box-shadow: 2px 2px 5px white;
+}
+.btn-mul{
+    height: 40px;
+    width: 70px;
+    border-radius: 4px;
+    border: 2px solid darkgreen;
+}
+.btn-mul:hover{
+    cursor: pointer;
+    box-shadow: 2px 2px 5px white;
+}
+.btn-quo{
+    height: 40px;
+    width: 70px;
+    border-radius: 4px;
+    border: 2px solid darkgreen;
+}
+.btn-quo:hover{
+    cursor: pointer;
+    box-shadow: 2px 2px 5px white;
+}
+
